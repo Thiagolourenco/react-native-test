@@ -21,15 +21,16 @@
 
 ## 💻 Sobre o projeto
 
-Desafio Proposto para uma vaga de emprego na We Devbr. O projeto tem como principal foco criar uma interface de Rede Social a gosto do Dev, os 
+Desafio Proposto para uma vaga de emprego na We Devbr. O projeto tem como principal foco criar uma interface de Rede Social a gosto do Dev, os
 dessa rede social são disponibilizada através do JsonPlaceholder, que serve para criação de Fake Api Rest. O projeto foi desenvolvido com as melhores
-práticas de React Native, usando Redux, Redux-Sagas e React Navigation V5. 
- * Todas as interfaces estão navegavéis, a questãod e integração com o backend está funcionando listagem de users, ver dados do users, galeria de fotos do user, e edição de perfil. As pates de Notifcações, Chat e listagem de usuário a serem convidados estão mockados.
+práticas de React Native, usando Redux, Redux-Sagas e React Navigation V5.
+
+- Todas as interfaces estão navegavéis, a questãod e integração com o backend está funcionando listagem de users, ver dados do users, galeria de fotos do user, e edição de perfil. As pates de Notifcações, Chat e listagem de usuário a serem convidados estão mockados.
 
 ## Descrição do Desafio
 
 ```
- 
+
 ## Exercício
 
 Para completar esse exercício você deve desenvolver um aplicativo social que contenha as seguintes páginas:
@@ -64,9 +65,7 @@ Página onde o usuário pode alterar seus dados cadastrais, informando a sua ima
 
 ```
 
-
 ### Mobile
-
 
 <p align="center">
   <img alt="" src="https://thiago-27-storage.s3.amazonaws.com/PageInit.jpg" width="150px" height="300px">
@@ -79,22 +78,22 @@ Página onde o usuário pode alterar seus dados cadastrais, informando a sua ima
 
 </p>
 
-## 🛠 Tecnologias 
+## 🛠 Tecnologias
+
     - React-Native-cli
     - React Navigation V5
     - Redux
     - Redux-Sagas
     - axios
 
-
 ### Observação
+
     ```
         * Tem algumas coisas mockadas, como Chat, Notficação e usuaários a serem conectados
         * Api foi feita atráves do JsonPlaceholder, como indicado
     ```
     - "BACKEND": https://my-json-server.typicode.com/Thiagolourenco/API_REST_FAKE/
         Api consumida para desenvolvimento
-
 
 ## 🚀 Como executar o projeto
 
@@ -103,7 +102,7 @@ Página onde o usuário pode alterar seus dados cadastrais, informando a sua ima
 $ git clone https://github.com/Thiagolourenco/react-native-test.git
 
 # instalar as dependências
-$ yarn or npm install 
+$ yarn or npm install
 
 # execute o projeto
 $ yarn react-native run-android ou run-ios || npx react-native run-android ou run-ios

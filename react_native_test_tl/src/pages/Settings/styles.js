@@ -1,0 +1,152 @@
+import {StyleSheet, Platform} from 'react-native';
+
+import {colors} from '../../constants/colors';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: colors.grayPrimary,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  content: {
+    height: Platform.OS === 'ios' ? '90%' : '75%',
+
+    width: '90%',
+    borderRadius: 30,
+    backgroundColor: colors.white,
+    shadowColor: colors.gray,
+    shadowOffset: {
+      height: Platform.OS === 'ios' ? 0.4 : 8,
+      width: Platform.OS === 'ios' ? 0.4 : 8,
+    },
+    shadowOpacity: Platform.OS === 'ios' ? 0.5 : 7,
+    shadowRadius: Platform.OS === 'ios' ? 2 : 7,
+    marginTop: 30,
+  },
+  title: {
+    alignSelf: 'center',
+    fontSize: 14,
+    fontWeight: '600',
+    marginTop: 10,
+  },
+  btnGradient: {
+    flex: 1,
+    width: '100%',
+    borderRadius: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  btnEditPhoto: {
+    height: 30,
+    width: 30,
+    borderRadius: 20,
+    shadowColor: '#222',
+    shadowOffset: {
+      height: 2,
+      width: 2,
+    },
+    shadowOpacity: 1,
+    shadowRadius: 2,
+    backgroundColor: colors.primary,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  viewUploadPhoto: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginRight: 10,
+    marginLeft: 10,
+  },
+  labelPhoto: {
+    fontSize: 10,
+    color: colors.primary,
+    fontWeight: 'bold',
+    marginLeft: 10,
+    marginTop: 20,
+    marginBottom: 5,
+  },
+  viewImage: {
+    height: 60,
+    width: 60,
+    borderRadius: 30,
+    backgroundColor: '#000',
+    borderWidth: 1,
+    borderColor: colors.white,
+    shadowColor: '#ccc',
+    shadowOffset: {
+      height: 4,
+      width: 4,
+    },
+    shadowOpacity: 4,
+    shadowRadius: 4,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  viewEditTextInput: {
+    flexDirection: 'row',
+    height: 40,
+    justifyContent: 'space-between',
+    marginLeft: 10,
+    marginRight: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.primary,
+    // marginTop: ,
+  },
+  input: {
+    flex: 1,
+    color: colors.title,
+  },
+  btnSave: {
+    height: 40,
+    width: '90%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'center',
+    marginTop: 30,
+  },
+  btnSaveText: {
+    fontSize: 14,
+    color: colors.white,
+    fontWeight: 'bold',
+  },
+  btnGradientSave: {
+    flex: 1,
+    width: '100%',
+    borderRadius: 15,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  imagePhotoUser: {
+    height: 50,
+    width: 50,
+    borderRadius: 25,
+  },
+  btn: {
+    height: 40,
+    width: '90%',
+    borderRadius: 10,
+    backgroundColor: colors.button,
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'center',
+    marginTop: 40,
+  },
+  btnText: {
+    fontSize: 14,
+    color: colors.white,
+    fontWeight: 'bold',
+  },
+  viewEditTextInputDesc: {
+    flexDirection: 'row',
+    height: 80,
+    justifyContent: 'space-between',
+    marginLeft: 10,
+    marginRight: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.primary,
+  },
+});
+
+export default styles;

@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  	🚧  Desenvolvendo Desafio React Native 🚀 em construção... 🚧 
+  	Desenvolvendo Desafio React Native 🚀 
 </h4>
 
 <p align="center">
